@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>画像ギャラリー</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css"
+      integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>画像ギャラリー</h1>
+
+    <div class="gallery">
+      <a
+        href="./images/cat1-big.jpg"
+        data-lightbox="image-1"
+        data-title="かわいい猫"
+        ><img src="./images/cat1-small.jpg" alt=""
+      /></a>
+      <a
+        href="./images/cat2-big.jpg"
+        data-lightbox="image-1"
+        data-title="かわいい猫"
+      >
+        <img src="./images/cat2-small.jpg" alt="" />
+      </a>
+      <a
+        href="./images/cat3-big.jpg"
+        data-lightbox="image-1"
+        data-title="かわいい猫"
+      >
+        <img src="./images/cat3-small.jpg" alt="" />
+      </a>
+      <a
+        href="./images/cat4-big.jpg"
+        data-lightbox="image-1"
+        data-title="かわいい猫"
+      >
+        <img src="./images/cat4-small.jpg" alt="" />
+      </a>
+      <a
+        href="./images/cat5-big.jpg"
+        data-lightbox="image-1"
+        data-title="かわいい猫"
+      >
+        <img src="./images/cat5-small.jpg" alt="" />
+      </a>
+      <a
+        href="./images/cat6-big.jpg"
+        data-lightbox="image-1"
+        data-title="かわいい猫"
+      >
+        <img src="./images/cat6-small.jpg" alt="" />
+      </a>
+      <a
+        href="./images/cat7-big.jpg"
+        data-lightbox="image-1"
+        data-title="かわいい猫"
+      >
+        <img src="./images/cat7-small.jpg" alt="" />
+      </a>
+      <a
+        href="./images/cat8-big.jpg"
+        data-lightbox="image-1"
+        data-title="かわいい猫"
+      >
+        <img src="./images/cat8-small.jpg" alt="" />
+      </a>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+      integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      lightbox.option({
+        alwaysShowNavOnTouchDevices: true,
+        resizeDuration: 300,
+        wrapAround: true,
+      });
+    </script>
+  </body>
+</html>
